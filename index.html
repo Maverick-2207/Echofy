@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./CSS/style1.css" />
+    <link rel="stylesheet" href="./CSS/style2.css" />
+    <link rel="stylesheet" href="./CSS/utility.css" />
+    <script src="script.js" defer></script>
+    <title>Echofy - Stream Your Sound 🎵</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <!-- Left Sidebar -->
+      <div class="left">
+        <div class="close">
+          <img class="invert" src="Assets/close.svg" alt="" />
+        </div>
+        <!-- Home Section -->
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo-container">
+            <img src="./Assets/favicon.svg" alt="Echofy Logo" class="logo-img" />
+            <span class="logo-text">Echofy</span>
+          </div>
+
+          <ul>
+            <li id="home-btn">
+              <img class="invert" src="./Assets/home.svg" alt="Home" /> Home
+            </li>
+          </ul>
+
+          <!-- Search with icon -->
+          <div class="search-container">
+            <img src="./Assets/search.svg" alt="Search Icon" class="search-icon" />
+            <input
+              type="text"
+              class="search-bar"
+              placeholder="Search for songs..."
+            />
+          </div>
+        </div>
+
+        <!-- Library Section -->
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="./Assets/converted.svg" alt="Library" />
+            <h2>Your Library</h2>
+          </div>
+
+          <div class="SongList">
+            <ul></ul>
+          </div>
+
+          <!-- Footer Links -->
+          <div class="footer">
+            <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+            <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+              >Safety & Privacy Center</a
+            >
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+              >Privacy Policy</a
+            >
+            <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+              >Cookies</a
+            >
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+              >About Ads</a
+            >
+            <a href="https://www.spotify.com/in-en/accessibility/"
+              >Accessibility</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right bg-grey rounded">
+        <!-- Header -->
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img class="hamburger" width="15px" src="./Assets/hamburger.svg" alt="" />
+              <img class="invert" src="./Assets/signature (1).svg" alt="" />
+            </div>
+          </div>
+          <div class="button">
+            <button class="sign-up-btn">Sign Up</button>
+            <button class="log-in-btn">Log In</button>
+          </div>
+        </div>
+
+        <!-- Playlist Section -->
+        <div class="SpotifyPlaylist">
+          <h1>My Playlist</h1>
+          <div class="CardContainer scroll-glow">
+
+            
+            <!-- Multiple Cards for my playlist -->
+
+
+            <div  data-folder="Saiyaara" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e022fc1f0e56f80b5e7cc388b3c"
+                alt=""
+              />
+              <h2>Saiyaara</h2>
+              <p>A soulful journey of love, loss, and self-discovery.💔</p>
+            </div>
+
+            <div data-folder="Darshan" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisis/2GoeZ0qOTt6kjsWW4eA6LS/en"
+                alt=""
+              />
+              <h2>This is Darshan !</h2>
+              <p>Vibes, emotions, and soul—Darshan Raval on repeat.🔊</p>
+            </div>
+
+            <div data-folder="Arijit Singh" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img 
+                src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c74d28e2d8f83ff5f0b653212"
+                alt=""
+              />
+              <h2>Arijit Singh</h2>
+              <p>Every heartbeat sings—Arijit in the soul.❤️🎧</p>
+            </div>
+
+            <div data-folder="Echoes_By_Madhav" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img src="Assets/maddy_echofy.jpg" alt="" />
+              <h2>Beats by Madhav</h2>
+              <p>Echoes_by_Madhav: where music meets love🎶💖🎧</p>
+            </div>
+
+            <div data-folder="1921" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e024fa15514cc7d7cef450f76bc"
+                alt=""
+              />
+              <h2>This is 1921</h2>
+              <p>The rhythm never dies… neither does fear—1921.🎼</p>
+            </div>
+
+            <div data-folder="Aashiqui2" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                alt=""
+              />
+              <h2>Aashiqui 2</h2>
+              <p>A melody of hearts, broken yet alive—Aashiqui 2.🌹🎼</p>
+            </div>
+
+            <div data-folder="MyFav" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://misc.scdn.co/liked-songs/liked-songs-300.jpg"
+                alt=""
+              />
+              <h2>Golden Tracks</h2>
+              <p>My playlist: a diary of unwritten confessions!</p>
+            </div>
+
+            <div  data-folder="Motivational" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e02f9c35ce42968dce1142061e7"
+                alt=""
+              />
+              <h2>Work Hard 🔥</h2>
+              <p>Songs that push me when I fall.⬆️🎵</p>
+            </div>
+
+            <div data-folder="Narsimha" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d0000b273cf23fe37ba6b967f147e7898"
+                alt=""
+              />
+              <h2>Mahavatar Narsimha</h2>
+              <p>The divine protects, and love always prevails💖🔥</p>
+            </div>
+
+            <div data-folder="Armaan Malik" class="card">
+              <div class="play">
+                <img src="./Assets/play.svg" alt="" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002769adb45a6d861ff7330e583"
+                alt=""
+              />
+              <h2>Armaan Malik</h2>
+              <p>Heartstrings, emotions, and rhythm—Armaan always 🎶💓</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Playbar -->
+
+        <!-- seekbar  -->
+        <div class="seekbar">
+          <div class="circle"></div>
+        </div>
+
+        <div class="playbar">
+          <div class="songinfo">
+            <div class="songname-scroll"></div>
+          </div>
+          <div class="song-btn">
+            <img id="prev" src="./Assets/prev.svg" alt="" />
+            <img id="play" src="./Assets/play.svg" alt="" />
+            <img id="next" src="./Assets/next.svg" alt="" />
+          </div>
+          <div class="song-timer"></div>
+
+          <div class="volume-control">
+            <img
+              width="25px"
+              src="./Assets/volume.svg"
+              alt="Volume"
+              class="volume-icon"
+            />
+            <div class="range">
+              <input
+                type="range"
+                name="volume"
+                id="volume-range"
+                title="Adjust volume"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Right Section -->
+    </div>
+    <!-- End Container -->
+
+    <audio id="audioPlayer"></audio>
+  </body>
+</html>

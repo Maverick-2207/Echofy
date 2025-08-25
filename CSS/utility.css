@@ -1,0 +1,74 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.invert {
+  filter: invert(1);
+}
+.bg-grey {
+  background-color: #121212;
+}
+.rounded {
+  border-radius: 7px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 10px;
+  margin: 12px 0;
+}
+/* Utility class for smooth glowing scrollbar */
+/* Make the container scroll smoothly and be eligible for styling */
+.scroll-glow {
+  max-height: 60vh; /* or a fixed px height */
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Chrome / Edge / Opera / Safari */
+.scroll-glow::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-glow::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-glow::-webkit-scrollbar-thumb {
+  background: rgba(5, 226, 138, 0.824); /* subtle by default */
+  border-radius: 30px;
+  border: 2px solid transparent; /* creates a slimmer look */
+  background-clip: content-box;
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Glow when user interacts (hover/click/focus) */
+.scroll-glow:hover::-webkit-scrollbar-thumb,
+.scroll-glow:active::-webkit-scrollbar-thumb,
+.scroll-glow:focus-within::-webkit-scrollbar-thumb {
+  background: #11e15a;
+  box-shadow: 0 0 8px #11f15f, 0 0 16px rgb(26, 254, 106);
+}
+
+/* Optional: make the gutter reserved so layout doesn't jump when the bar shows */
+/* scrollbar-gutter is not supported in Safari, so use it only where supported */
+@supports (scrollbar-gutter: stable) {
+  .scroll-glow {
+    scrollbar-gutter: stable;
+  }
+}

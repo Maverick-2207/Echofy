@@ -1,0 +1,6 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white">
+  <title>Next</title>
+  <rect x="0" y="0" width="24" height="24" fill="none"/>
+  <path d="M15.3371,11.5782 L5.76839,5.48901 C5.43561,5.27718 5,5.51629 5,5.91084 L5,18.0892 C5,18.4837 5.43561,18.7228 5.76839,18.511 L15.3371,12.4218 C15.6459,12.2254 15.6459,11.7746 15.3371,11.5782 Z" fill="white"/>
+  <line x1="19" y1="5" x2="19" y2="19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>

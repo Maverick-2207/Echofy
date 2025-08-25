@@ -1,0 +1,20 @@
+<svg 
+  width="80" 
+  height="80" 
+  viewBox="0 0 80 80" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- White Circular Background -->
+  <circle 
+    cx="40" 
+    cy="40" 
+    r="40" 
+    fill="white" 
+  />
+
+  <!-- Black Play Icon -->
+  <path 
+    d="M25 55q0 2 1.5 3t2.5 1q1 0 2-0.5l30-15q1-0.5 1.5-1.5t0.5-2-0.5-2-1.5-1.5l-30-15q-1-0.5-2-0.5-1 0-2.5 1t-1.5 3v30z" 
+    fill="black" 
+  />
+</svg>
