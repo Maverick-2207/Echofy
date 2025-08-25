@@ -75,23 +75,35 @@ You can view a live demo here:
 
 ---
 
-## Folder Structure
-Echofy-Music-Application/
-├─ index.html             # Main HTML file
-├─ CSS/
-│  └─ style.css           # Styling for the app
-├─ JS/
-│  └─ script.js           # All JS functionality
-├─ Assets/
-│  ├─ play.svg            # Play icon
-│  └─ pause.svg           # Pause icon
-├─ SONGS/
-│  ├─ songs.json          # JSON file containing all albums and songs
-│  ├─ Saiyaara/           # Album folder
-│  │  ├─ song1.mp3
-│  │  └─ song2.mp3
-│  └─ Darshan/            # Another album folder
-│     └─ ...
+## 📂 Project Structure 
+    ```bash
+      Echofy-Music-Application/
+      │── index.html             # Main HTML file
+      │── style.css              # Core styling
+      │── script.js              # Main JavaScript logic
+      │── songs.json             # Dynamic songs data
+      │
+      ├── /assets 🎨             # Icons, images, SVGs
+      │    └── logo.svg
+      │
+      ├── /CSS 🎨                # Additional stylesheets
+      │    └── style1.css
+      │
+      ├── /SONGS 🎵              # Music files (MP3s)
+      │    ├── Album1/
+      │    │    ├── song1.mp3
+      │    │    └── song2.mp3
+      │    ├── Album2/
+      │    │    └── ...
+      │    └── ...
+      │
+      └── /JS ⚡                 # Supporting JavaScript files
+            └── utils.js
+
+
+
+
+
 
 ---
 
