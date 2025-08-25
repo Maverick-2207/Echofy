@@ -47,7 +47,8 @@ The design prioritizes **ease of use, performance, and interactivity**, giving u
 
 ## Demo
 You can view a live demo here:  
-[**Echofy Live Demo**](https://echofy-music-app.netlify.app/)
+[**Echofy Live Demo**]
+https://echofy-music-app.netlify.app/
 
 ---
 
