@@ -1,4 +1,4 @@
-# Echofy 🎵
+# Echofy 🎧🎵
 
 **“Echofy – A modern web-based music player with dynamic playlists, smooth playback controls, and interactive search. Stream and explore your favorite songs effortlessly, right from the browser.”**
 
@@ -47,7 +47,7 @@ The design prioritizes **ease of use, performance, and interactivity**, giving u
 
 ## Demo
 You can view a live demo here:  
-[**Echofy Live Demo**](echofy-music-app.netlify.app)
+[**Echofy Live Demo**](https://echofy-music-app.netlify.app/)
 
 ---
 
